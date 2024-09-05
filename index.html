@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 
 <head>
@@ -58,6 +58,9 @@
     <!-- Slider main container -->
     <div class="swiper">
       <!-- Additional required wrapper -->
+      <!-- If we need navigation pagination -->
+
+         <div class="swiper-pagination"></div>
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div class="swiper-slide"><img src="img/ApacheKafka.svg"
@@ -75,12 +78,35 @@
         <div class="swiper-slide">
           <img src="img/Acessibilidade.svg" alt="Livro sobre acessibilidade" />
         </div>
+      
 
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
       </div>
 
+    <div class="card">
+      <!-- 1° linha --> 
+      <div clss="card__descrição">
+        <!-- 1° coluna -->
+        <div class="descrição">
+          <h3 class="descrição__título">Talvez você também se interesse por...</h3>
+          <h2 class="descrição__título-livro">Angluar 11 e Firbase</h2>
+          <p class="descrição__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+        </div>
+        <!-- 2° coluna-->
+        <img src="img/Angular.svg" class="descrição__imagem">
+      </div>
+      <!-- 2° linha -->
+       <dir class="card__botões">
+        <!-- 1° coluna -->
+         <ul class="botões">
+          <li class="botões__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de cpmpras"></li>
+         </ul>
+         <!-- 2° coluna -->
+          <a href="#" class="botões__ancora">Saiba mais</a>
+       </dir>
     </div>
 
   </section>
